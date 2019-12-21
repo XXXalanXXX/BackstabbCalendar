@@ -1,0 +1,140 @@
+@font-face {
+ font-family: "Kiyana";
+ src:url("KiyanaDisplay-UltraLight.otf");
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  font-family: "Kiyana";
+  background-color: #6b6e6b;
+  color: #4fa85f;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: left;
+  padding: 40px 0px 0px 40px;
+  margin: 0px;
+}
+h3{
+  width: 100%;
+  background-color:#343634;
+  margin:0px;
+  padding: 10px 0px 10px 0px;
+
+}
+table{
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  border-spacing: 30px;
+  font-size:18px;
+}
+table td{
+  border: #343634 solid 2px;
+  background-color: #bfb3b2;
+  transition: all 0.1s ease-out;
+  text-align: center;
+
+}
+table tr{
+  border: black solid 1px;
+}
+table th{
+    width: 100px;
+    height: 50px;
+}
+table td:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 1px #4fa85f;
+  background-color:#4fa85f ;
+  border:#4fa85f solid 5px ;
+}
+td img{
+  vertical-align: middle;
+  width: 30px;
+}
+#content{
+  width: 100%;
+  height: 100%;
+  background-color: #343634;
+
+}
+
+#modalconfirm{
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+
+}
+#formconfirm{
+  display: none;
+  width: 600px;
+  height: 200px;
+  padding-bottom:20px;
+  text-align: center;
+  background-color:#d1c7c7;
+  position: fixed;
+  left:calc(50% - 300px);
+  top:calc(50% - 100px);
+  background-color: #d1c7c7;
+  opacity:1 ;
+}
+#btnOui{
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 35px;
+  border: solid  #32a852 2px;
+  color: #32a852;
+  background-color: #d1c7c7;
+  transition: all 0.5s ease-out ;
+  width: 40%;
+  height: 100px;
+
+}
+#btnOui:hover{
+  cursor: pointer;
+  color: #d1c7c7;
+  background-color: #32a852;
+}
+#btnNon{
+  display: inline-block;
+  background-color: #d1c7c7;
+  font-size: 20px;
+  margin-top: 35px;
+  border: solid  #eb3434 2px;
+  color: #eb3434;
+  transition: all 0.5s ease-out ;
+  width: 40%;
+  height: 100px;
+
+
+}
+#btnNon:hover{
+  cursor: pointer;
+  color: #d1c7c7;
+  background-color: #eb3434;
+}
+#exit{
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  border: none;
+  background-color:#343634;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  font-size: 30px;
+}
+#exit:hover{
+  color:#eb3434;
+  font-size: 30px;
+
+}
