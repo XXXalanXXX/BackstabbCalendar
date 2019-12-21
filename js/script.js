@@ -10,7 +10,7 @@ $(document).ready(function(){
          success:function(data){
                   // affiche le contenu du fichier dans le conteneur dédié :
                     var dispo = data;
-                    console.log(dispo);
+                    console.log("bonjour" + dispo);
                   }
          });
 
