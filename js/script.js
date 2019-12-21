@@ -9,7 +9,7 @@ $(document).ready(function(){
                   },
          success:function(data){
                   // affiche le contenu du fichier dans le conteneur dédié :
-                    var dispo = text(data);
+                    var dispo = data;
                     console.log(dispo);
                   }
          });
